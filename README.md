@@ -1,2 +1,3 @@
-# DailyLifes
-A demo for a diary web.
+## 很杂很杂的笔记
+- mysql
+- redis
