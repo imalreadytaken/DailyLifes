@@ -69,3 +69,5 @@
   - *.zsh-theme中，修改PROMPT=''中的内容
 
 ### SourceTree
+
+> 第一次修改用户名和邮箱信息失败了
