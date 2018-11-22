@@ -1,3 +1,29 @@
+## FPM
+
+#### 重启fpm
+
+- 找到需要重启fpm的主进程号
+
+    ```bash
+    ps aux | grep fpm
+    ```
+
+    > root     25757  0.0  0.0 343672 **17328** ?        Ss   17:51   0:00 php-fpm: master process (/usr/local/qqwebsrv/php-7.1.7/etc/php-fpm.conf)
+
+- kill之
+
+    ```bash
+    sudo kill 17328
+    ```
+
+- 启动fpm
+
+    ```bash
+    sudo /path/to/fpm/php-fpm
+    ```
+
+
+
 ## PHPUNIT
 
 #### 测试值依赖问题
