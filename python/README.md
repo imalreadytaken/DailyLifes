@@ -115,7 +115,7 @@ print('&'.join(x))
 
 ## 其它
 
-## hash
+### hash
 
 ```python
 import hashlib
@@ -123,3 +123,9 @@ h = hashlib.sha256()
 h.update('aaaa'.encode('utf-8'))
 print(h.hexdigest())
 ```
+
+
+
+### Python23区别
+
+- JSONDecodeError在2中没有，用ValueError
